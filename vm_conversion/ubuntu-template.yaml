@@ -1,0 +1,62 @@
+domain:
+  clock:
+    timer: null
+  cpu: null
+  currentMemory: '4194304'
+  devices:
+    channel:
+      address: null
+      target: null
+    console:
+      target: null
+    controller:
+      address: null
+    disk:
+      address: null
+      driver: null
+      readonly: null
+      source: null
+      target: null
+    emulator: /usr/bin/qemu-system-x86_64
+    graphics:
+      listen: null
+    input: null
+    interface:
+      address: null
+      mac: null
+      model: null
+      source: null
+    memballoon:
+      address: null
+    redirdev:
+      address: null
+    rng:
+      address: null
+      backend: /dev/urandom
+    serial:
+      target:
+        model: null
+    sound:
+      address: null
+    video:
+      address: null
+      model: null
+  features:
+    acpi: null
+    apic: null
+    vmport: null
+  memory: '4194304'
+  metadata:
+    '{http://libosinfo.org/xmlns/libvirt/domain/1.0}libosinfo':
+      '{http://libosinfo.org/xmlns/libvirt/domain/1.0}os': null
+  name: ubuntu-template
+  on_crash: destroy
+  on_poweroff: destroy
+  on_reboot: restart
+  os:
+    boot: null
+    type: hvm
+  pm:
+    suspend-to-disk: null
+    suspend-to-mem: null
+  vcpu: '2'
